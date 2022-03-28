@@ -1,0 +1,13 @@
+<div class="upload">
+<app-header></app-header>
+  <div class="upload-body">
+    <app-fileupload
+      *ngIf="data.length===0"
+      (complete)="sendComplete($event)"
+    ></app-fileupload>
+    <app-table [data]="data" *ngIf="data.length>0"></app-table>
+  </div>
+  <div class="upload-footer">
+    <button class="btn-primary"  (click)="newProcess()" *ngIf="data.length>0">Voltar</button>
+  </div>
+</div>
