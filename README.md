@@ -1,4 +1,4 @@
-#  Executar projecto front-end 
+#  Como executar aplicação frontend
 - Primeiramente vá ao diretorio da pasta front-end.
 - cd front-end 
 ### Como executar a aplicação frontend
